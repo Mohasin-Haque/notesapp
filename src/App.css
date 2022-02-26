@@ -42,7 +42,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* width: 50%; */
+  margin: 0.5rem 5rem;
+  padding: 1rem
 }
 
 .input-field > input{
@@ -71,4 +72,11 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
