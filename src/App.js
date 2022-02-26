@@ -8,9 +8,9 @@ function App() {
 
   const [title,setTitle] = useState("")
   const [description,setDescription] = useState("")
-  const [notes, setNotes] = useState(notesData)
   const [cardBgColor, setCardBgColor] = useState("")
   const [pinNotes, setPinNotes] = useState(false)
+  const [notes, setNotes] = useState([])
 
   const pinnedNotes = notes.filter((note) => note.pin);
   const unPinnedNotes = notes.filter((note) => !note.pin);
