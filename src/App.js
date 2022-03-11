@@ -43,7 +43,7 @@ function App() {
         <button onClick={notesHandler}>Add Note</button>
         <button onClick={() => setCardBgColor("#fbbf33")} >Yellow</button>
         <button onClick={() => setCardBgColor("#c8f08f")}>Green</button>
-        <button onClick={() => setCardBgColor("#a5f8e a")}>Blue</button>
+        <button onClick={() => setCardBgColor("#a5f8ea")}>Blue</button>
         </div>
         
         {pinnedNotes && pinnedNotes.length>=1 && <h2> Pinned </h2>}
