@@ -33,7 +33,7 @@ export const Home = ({notes, setNotes, setArchieveNotes}) => {
   
         <div className="btn">
         <button onClick={() => setPinNotes((prev => !prev))}>{pinNotes ? "Unpin" : "Pin"}</button>
-        <button onClick={notesHandler}>Add Note</button>
+        <button onClick={notesHandler} disabled={title==="" && description===""}>Add Note</button>
         <button onClick={() => setCardBgColor("#fbbf33")} >Yellow</button>
         <button onClick={() => setCardBgColor("#c8f08f")}>Green</button>
         <button onClick={() => setCardBgColor("#a5f8ea")}>Blue</button>
