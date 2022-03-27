@@ -3,7 +3,6 @@ export const Card = ( {note, setArchieveNotes, setNotes}) => {
     const archieveClickHandler = () => {
         setArchieveNotes((prev) => [...prev, note]);
         setNotes((prev) => prev.filter(archivedNote => {
-            console.log(archivedNote, note)
         return archivedNote.id !== note.id
         }))
         }

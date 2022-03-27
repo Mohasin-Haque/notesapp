@@ -16,11 +16,6 @@ function App() {
    localStorage.setItem("notes", JSON.stringify(notes));
  }, [notes]);
 
-  // useEffect(()=>{
-  //   localStorage.setItem("notes", JSON.stringify(notes));
-  //   console.log(localStorage.getItem("notes"))
-  // })
-
   return (
     <div className="App">
       <h2>NotesApp</h2>

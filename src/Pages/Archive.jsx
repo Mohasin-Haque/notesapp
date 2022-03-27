@@ -5,7 +5,6 @@ const Archieve = ({ archieveNotes }) => {
         <div>
             <h2>Archieve</h2>
             { archieveNotes.map(note => <Card note={note} key={note.id} />)}
-
         </div>
     )
 }

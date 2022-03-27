@@ -4,10 +4,10 @@ import { Card } from "../Components/Card";
 
 
 export const Home = ({notes, setNotes, setArchieveNotes}) => {
-    const [title,setTitle] = useState("")
-    const [description,setDescription] = useState("")
-    const [cardBgColor, setCardBgColor] = useState("")
-    const [pinNotes, setPinNotes] = useState(false)
+    const [title,setTitle] = useState("");
+    const [description,setDescription] = useState("");
+    const [cardBgColor, setCardBgColor] = useState("");
+    const [pinNotes, setPinNotes] = useState(false);
     const pinnedNotes = notes.filter((note) => note.pin);
     const unPinnedNotes = notes.filter((note) => !note.pin);
   
